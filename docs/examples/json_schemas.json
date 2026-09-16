@@ -1,0 +1,58 @@
+{
+  "userExample": {
+    "userId": 2,
+    "displayName": "Jean Claude Uwimana",
+    "userType": "CUSTOMER"
+  },
+  "categoryExample": {
+    "categoryId": 3,
+    "categoryName": "TRANSFER",
+    "description": "Money transferred to another person"
+  },
+  "transactionExample": {
+    "transactionId": "78901236",
+    "categoryId": 3,
+    "smsAddress": "MoMo",
+    "smsDate": "2024-05-10T16:06:40",
+    "amount": 10000,
+    "currency": "RWF",
+    "fee": 100,
+    "balanceAfter": 12900
+  },
+  "systemLogExample": {
+    "logId": 3,
+    "transactionId": "78901236",
+    "logLevel": "INFO",
+    "message": "Transfer transaction processed successfully",
+    "processedAt": "2024-05-10T16:06:45"
+  },
+  "completeTransactionExample": {
+    "transactionId": "78901236",
+    "type": "TRANSFER",
+    "amount": 10000,
+    "currency": "RWF",
+    "fee": 100,
+    "balanceAfter": 12900,
+    "date": "2024-05-10T16:06:40",
+    "participants": [
+      {
+        "userId": 1,
+        "displayName": "Account Owner",
+        "role": "SENDER"
+      },
+      {
+        "userId": 4,
+        "displayName": "Alice Mukamana",
+        "role": "RECEIVER"
+      }
+    ],
+    "logs": [
+      {
+        "logId": 3,
+        "logLevel": "INFO",
+        "message": "Transfer transaction processed successfully",
+        "processedAt": "2024-05-10T16:06:45"
+      }
+    ]
+  }
+}
