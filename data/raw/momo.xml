@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<messages>
+  <sms address="MoMo" date="1715350000000" body="You have received 5000 RWF from Jean Claude Uwimana. Your new balance is 25000 RWF. Transaction Id: 78901234."/>
+  <sms address="MoMo" date="1715353600000" body="You have made a payment of 2000 RWF to Kigali Coffee Shop. Your new balance is 23000 RWF. Transaction Id: 78901235."/>
+  <sms address="MoMo" date="1715357200000" body="You have transferred 10000 RWF to Alice Mukamana. Fee: 100 RWF. Your new balance is 12900 RWF. Transaction Id: 78901236."/>
+  <sms address="MoMo" date="1715360800000" body="You have received 7500 RWF from Patrick Habimana. Your new balance is 20400 RWF. Transaction Id: 78901237."/>
+  <sms address="MoMo" date="1715364400000" body="You have made a payment of 3000 RWF to City Supermarket. Your new balance is 17400 RWF. Transaction Id: 78901238."/>
+</messages>
